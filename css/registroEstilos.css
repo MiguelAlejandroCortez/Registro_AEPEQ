@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+    padding: 40%;
+    font-family: sans-serif;
+    background: linear-gradient(150deg, #006847, #79aa2bf8);
+  }
+  
+  .formulario {
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .formulario h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+  }
+  
+  .formulario form {
+    box-sizing: border-box;
+  }
+  
+  .formulario form span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #006847;
+  }
+  
+  .formulario form input[type="text"],
+  .formulario form input[type="password"],
+  .formulario form input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 2px solid #adadad;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .formulario form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #006847;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+  }
+  
+  .registrarse {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .registrarse a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .registrarse a:hover {
+    text-decoration: underline;
+  }
+  
